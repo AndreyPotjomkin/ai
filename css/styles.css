@@ -1,0 +1,87 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    -background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: #24355C;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+
+  div#effect {
+    height: 100%;
+}
+
+.view.overlay.z-depth-1-half {
+    position: relative;
+}
+
+.white-text {
+    color: white;
+}
+
+.blackout {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #040260b3;
+}
+
+a.nav-link.btn.btn-warning {
+  color: black;
+  font-weight: bold;
+}
+
+a.nav-link.btn.btn-warning:hover {
+    color: black;
+}
+
+.btn-warning.big {
+    width: 300px;
+    display: block;
+    margin: auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btn-light.big {
+    width: 200px;
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-top {
+  height: auto;
+  background-color: #0d6efd;
+  border-radius: .25rem .25rem 0 0;
+  color: white;
+}
+
+.col-md-4.mb-4 .card {
+  width: 18rem;
+  margin: auto;
+}
